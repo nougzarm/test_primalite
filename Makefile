@@ -17,6 +17,6 @@ $(LIBR).o: $(LIBR).c $(LIBR).h
 	$(CC) $(CPFLAGS) -c $(LIBR).c
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) test
 
 

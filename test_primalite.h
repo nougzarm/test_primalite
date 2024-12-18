@@ -48,10 +48,7 @@ int ordre_deux(int m);          //  La 2-valuation de m
 int puissance(int m, int e);    //  Renvoie m puissance e
 int modulo(int a, int b);                       //  Renvoie a modulo b
 int puissance_modulo(int m, int e, int p);      //  Renvoie m^e modulo p
-int inverse(int a, int p);                      //  Inverse de a dans Z/pZ lorsque pgcd(a,p)=1
 int pgcd(int a, int b);                 //  PGCD
-int partie_entiere(double n);           //  Partie entière de n
-int racine_carree_entiere_mn(int n);    //  Racine carrée entière de n (algo naïf)
 int jacobi(int a, int b);       //  Symbole de Jacobi
 
 #endif // TEST_PRIMALITE_INCLUDED
