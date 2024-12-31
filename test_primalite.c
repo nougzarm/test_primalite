@@ -51,6 +51,12 @@ int pgcd(int a, int b){
 }
 
 int jacobi(int a, int b){
+    if(b%2==0){
+        return 0;
+    }
+    if(pgcd(a, b) != 1){
+        return 0;
+    }
     a = modulo(a, b);
     
     int signe = 1;
@@ -122,6 +128,12 @@ int test_fermat(int n, int k){
         - si renvoie 1 alors n est premier avec proba supérieur à 1-1/(2^k)
 */
 int test_solovay_strassen(int n, int k){
+    if(n==4){
+        return 0;
+    }
+    if(n==2){
+        return 1;
+    }
     int b;
     for(int i=0; i<k; i++){
         b = 2 + (rand()%(n-4));

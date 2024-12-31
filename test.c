@@ -8,11 +8,11 @@
 
 int main() {
     // CHOIX DE L'OPÉRATION --------------------------------------------------------
-    int choix_test = 3;
+    int choix_test = 2;
 
     // CONFIGURATION - CHOIX DE L'ENTIER n et du nombre k de tentatives ------------
-    int n = 1874;
-    int k = 78;
+    int n = 2;
+    int k = 10;
 
     // AFFICHAGE DE LA CONFIGURATION -----------------------------------------------
     printf("----------------------------------------------------------------- \n");
